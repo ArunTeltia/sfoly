@@ -1,0 +1,122 @@
+
+body{ color:#444; background-color:#F1F1F1; font-size:12px; line-height:1.5em; font-family:Arial, Helvetica, sans-serif; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display:block;
+}
+
+h1{ font-size:2em; margin:10 0 50px 0; }
+#btn1
+{
+	margin:10px 50px 0px 50px ;
+	border-radius: 15%;
+	background-color: rgb(74, 163, 163);
+	 float:left;
+}
+#btn2
+{
+	margin:10px 50px 0px 50px ;
+	border-radius: 15%;
+	background-color: rgb(74, 163, 163);
+	 float:left;
+}
+#btn1:hover,button:hover,#btn2:hover{
+	background-color: #444;
+	color:white;
+}
+button{ border-radius:15%;cursor:pointer;
+ }
+p{ padding:5px 0; }
+
+a{ text-decoration:none; }
+
+
+
+#verification {
+  background: gray;
+  margin-top: 60px;
+}
+
+#verification h2 {
+  color: #ffffff;
+}
+
+#verification .section-title {
+  padding-bottom: 5px;
+}
+
+#verification h2 > small,
+#verification p,
+#verification a {
+  color: #f9f9f9;
+}
+
+#verification-form {
+  padding: 1px 0;
+}
+
+#verification-form .col-md-12,
+#verification-form .col-md-4 {
+  padding-left: 0;
+}
+
+#verification-form .form-control {
+  border: 0;
+  border-radius: 5px;
+  box-shadow: none;
+  margin: 10px 0;
+}
+
+#verification-form input {
+  height: 50px;
+}
+
+#verification-form input[type='submit'] {
+  border-radius: 50px;
+  border: 1px solid transparent;
+}
+
+#verification-form input[type='submit']:hover {
+  background: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+table {
+    width: 100%;
+}
+
+td {
+    height: 50px;
+}
+table {
+    border-collapse: collapse;
+}
+
+	@media only screen and (max-width: 460px)
+	{
+		#wrap
+		{
+			width:100%;
+			overflow-x: hidden;
+		}
+		#btn1
+{
+	margin:5px 10px 0px 10px ;
+	border-radius: 05%;
+
+}
+#btn2
+{
+	margin:5px 20px 0px 20px ;
+	border-radius: 05%;
+}
+.field label
+{
+width:350px;
+}
+.field label span
+{
+	width:100px;
+}
+}

@@ -1,0 +1,22 @@
+
+
+ <?php
+$name=$email=$message='';
+$con=mysqli_connect("localhost","root","") or die("cannot connect");
+$db=mysqli_select_db($con,"olympiad") or die("db not connected");
+if($_SERVER["REQUEST_METHOD"]=="POST"){
+  $name=isset($_POST['name']) ? test_input($_REQUEST['name']):'';
+  $email=isset($_POST['email']) ? test_input($_REQUEST['email']):'';
+  $message=isset($_POST['message']) ? test_input($_REQUEST['message']):'';
+  $query="INSERT INTO contactus  values('$name','$email','$message')";
+      if(mysqli_query($con,$query)){
+
+      }
+} 
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+?> 

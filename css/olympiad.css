@@ -1,0 +1,32 @@
+#olympiad
+{
+	
+	 color:rgb(56, 54, 52) !important;
+}
+#olympiad p
+{
+ font-size: 24px;
+ line-height: 40px;
+}
+#olympiad p i
+{
+ font-size: 24px;
+ margin:0 10px;
+ color:black;
+}
+#olympiad span
+{
+	color:blue;
+	font-size: 24px;
+}
+#olympiad b
+{
+	text-decoration: underline;
+}
+#olympiad a
+{
+	color:blue;
+	font-style: italic;
+	font-family: palatino;
+	font-size: 24px !important;
+}

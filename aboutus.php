@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html amp lang="en">
+<head>
+
+     <title>SpringField Olympiads</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="springfield olympiads private limited we, at Springfield provide best olympiad solutions for students.Springfield Olympiads is one the few establishments which was founded with the aim of not only building competitive spirit but also focusing on developing healthy academic competition among children at the school level.The status-quo of Springfield Olympiads can be attributed  to driving academicians who felt a need to promote/advance science, arithmetic, computer training, English, General Knowledge, and other expert courses.Springfield Olympiads firmly believes that such Olympiads, also help the participants in gaining confidence for competition with the best around them, within the country and internationally and contribute to temperament development. Also when children experience a definite sense of accomplishment, it encourages them to try and do even higher as they advance in age.">
+     <meta name="keywords" content="Olympiads, olympiad , maths olympiads , Science olympiads ,national olympiads, springfield olympiads, competitive olympiads,science, arithmetic, computer training, English, General Knowledge, and other expert courses  ">
+     <meta name="author" content="nagacharan">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<link rel="canonical" href="http://example.ampproject.org/article-metadata.html">
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+<script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Open-source framework for publishing content",
+        "datePublished": "2015-10-07T12:02:41Z",
+        "image": [
+          "logo.jpg"
+        ]
+      }
+    </script>
+
+     <link rel="shortcut icon" type="image/x-icon" href="images/springfield_olympiads_private_limited_651397.png" />
+     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css'>
+     <link rel="stylesheet" href="css/owl.carousel.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/base-style.css">
+     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script>
+$(function(){
+$("#header1").load("header.php");
+$("#footer1").load("footer.php");
+});
+    </script>
+
+</head>
+<body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+
+     <!-- MENU -->
+    <div id="header1"></div>
+    <br/>
+<div id="aboutus">
+     <h2><u>About Us</u></h2>
+    <p> Springfield Olympiads is an Educational Organization popularizing academic competition and assisting the development of competitive spirit among school children.
+        </p>
+        <p> Springfield Olympiads was established by leading academicians with the aim of promoting <b>science, mathematics, computer education, English, General Knowledge</b>, and <b>professional courses</b>.
+        </p>
+        <p> In the present times when the world is totally pivoted on science and IT, it is pertinent to think and plan about the future - a future in which the children of the present shall be the leaders of tomorrow. Regular qualitative and quantitative assessment needs to be done at the national/ international level in order to build up the scientific and IT talent pool.
+            </p>
+            <p>Springfield Olympiads's integrity and commitment towards the fulfillment of its objectives have been lauded by many schooling institutions who have directly benefited from its educative, informative and evaluative programmes. For the future, Springfield Olympiads has several more innovative programmes lined up, which promise to bring about a sea change in the approach to education and preparation for competitive programs.</p>
+            <p>The Springfield Olympiads serves as a veritable forum for the qualitative dissemination of knowledge and information on the latest advances in science and technology, humanities and sports etc. Conducting workshops, interactive seminars and conducting Olympiads and publication of informative, non-curriculum study material for school children are currently an essential part of Springfield Olympiads ads portfolio.
+                </p>
+              <p>The Springfield Olympiads strongly believes that such Olympiads, apart from bringing out the best in the participants, also help them gain confidence for competing with the best around them and in the country and internationally and contribute to personality development. Also recognition of merit at an early age is bound to infuse a certain sense of achievement that encourages them to do even better as they advance in age.
+                </p>
+</div>
+<div id="aboutus2">
+                <p> The students are exposed to a variety of complex problems which demand a high level of analytical ability and proficiency in the use of various concepts from a cross-section of subjects, thereby invoking ingenuity in dealing with them. Since admissions to various professional institutions like <abbr title="Indian Institute of Technology">IIT</abbr>s and Medical colleges are given on the basis of performance in competitive exams, such Olympiads also pave the way for a true understanding of the concepts that are so essential for doing well in these highly competitive exams.</p>
+                <p>Apart from the Olympiad activities, the Springfield Olympiads also conducts seminars, workshops, and teacher training programmes in various cities of the country.</p>
+                <p>Hence conducting workshops, interactive seminars and teachers' training programmes are at present an essential part of the Springfield Olympiads’s table of activities. This way the Foundation aims at bringing about a steady and speedy change in the very way education is currently imparted in the country.
+                    </p>
+                    <p>The dynamic and competitive nature of the world has led to the need for further growth and development of young minds which is imperative for the expansion of the scientific and IT talent pool worldwide. Our mission is to provide these bright minds with a competitive platform in order to prove their mettle. To further this cause, Springfield Olympiads endeavors to:</p>
+                    <ul>
+                        <li>Encourage upcoming Technologists, Scientists, Chartered Accountants and IT talent at the school level.</li>
+                        <li>Promote students’ participation in national/international programmes and events.</li>
+                        <li>Give rise to a sense of belonging to national and global science and IT fraternity.</li>
+                        <li>Stimulate healthy competitive spirit with the help of reward based contests and olympiads.
+                            </li>
+                        <li>Establish a more interactive and practical approach to science and IT in the classroom.</li>
+                        <li>Propagate knowledge and understanding of the latest developments in science and technology.</li>
+                        <li>Function as a Centre of Excellence in the fields of methodical research, new educational tools, special publications and expert advice for different schooling institutions.</li>
+                    </ul>
+                </div>
+          <div id="footer1"></div>
+            <script src="js/bootstrap.min.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
+
+     <script src="backtotop.js"></script>
+</body>
+</html>

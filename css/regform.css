@@ -1,0 +1,138 @@
+#regform
+{
+  margin-top:130px; 
+  margin-left: 55px;
+  width:90%;
+}
+#regform h1
+{
+  font-size: 28px;
+  text-align: center;
+  text-decoration: underline;
+  margin: 20px;
+}
+#regform b
+{
+  text-decoration: underline;
+}
+#regform hr
+{
+  border: 2px solid black;
+}
+#regform p,#regform li
+{
+font-size: 18px;
+line-height: 32px;
+}
+#regform h3
+{
+  font-size: 24px;
+  text-align: center;
+  text-decoration: underline;
+  margin: 20px
+}
+#regform ul
+{
+  list-style-type: none;
+  clear: both;
+  display: block;
+ 
+}
+#regform ul li
+{
+  line-height: 50px;
+  width:80%;
+  float: left;
+  vertical-align: top;
+}
+#regform button
+{ margin-top: 10px; 
+  width:90px;
+  border-radius:8%;
+  float: left;
+  clear:right;
+  vertical-align: center;
+}
+.ntng
+{
+  margin:5px;
+  display: block;
+  clear:both;
+}
+#regform table 
+{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-right: 15px;
+    align-self: center;
+    margin-left: 12%; 
+}
+
+#regform td, th {
+    border: 3px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+@media only screen and (max-width: 767px) 
+{
+  #regform p,#regform li
+  {
+  font-size: 16px;
+  line-height: 22px;
+  }
+  #regform button
+  {
+    width:90px;
+  border-radius:8%;
+    float: left;
+    clear:right;
+    font-size: 12px;
+  }
+  #regform
+  {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  #regform p,#regform li
+{
+font-size: 14px;
+line-height: 15px;
+}
+#regform button
+{
+  width:90px;
+  border-radius:8%;
+  float: left;
+  clear:right;
+  font-size: 10px;
+}
+#regform table 
+  {
+    font-size: 12px;
+  }
+  #regform
+  {
+    margin-left: 15px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #regform p,#regform li
+{
+font-size: 12px;
+line-height: 12px;
+}
+#regform button
+{
+ width:90px;
+  border-radius:8%;
+  float: left;
+  clear:right;
+  font-size: 8px;
+}
+#regform
+  {
+    margin-left: 10px;
+  }
+}

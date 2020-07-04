@@ -1,0 +1,73 @@
+.faq
+{
+  margin-top:120px;
+  margin-left: 40px;
+}
+dl.faq button {
+  margin: 0;
+  padding:10px 35px;
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 110%;
+  border: thin solid transparent;
+  background-color: #eee;
+  padding-left: 0.125em;
+  border-radius: 10px;
+  box-shadow: rgb(189, 165, 165);
+}
+
+dl dd {
+margin: 0 ;
+margin-left: 15px;
+padding: 10px;
+margin-left: 1.5em;
+}
+dl.faq dt
+{
+padding:15px;
+font-size: 150%;
+
+}
+dl.faq .desc {
+  margin: 0;
+  padding: 3%;
+  font-size: 150%;
+  display: none;
+  background-color: #48bd75;
+  color:white;
+  border-radius: 10px;
+
+}
+
+dl.faq button:hover,
+dl.faq button:focus {
+background-color: #9c8f8f;
+border: 0 solid transparent;
+border-radius: 10px;
+}
+
+dl.faq button:focus {
+border-color: #663300;
+border: 0 solid transparent;
+border-radius: 10px;
+}
+
+dl.faq button:active {
+background-color: #bbb;
+border: 0 solid transparent;
+border-radius: 10px;
+}
+}
+
+dl.faq button[aria-expanded="false"]:before {
+content: url('../images/right.png');
+padding-right: 0.35em;
+}
+dl.faq button[aria-expanded="true"] i
+{
+display: none;
+}
+dl.faq button[aria-expanded="true"]:before {
+content: url('../images/down-arrow-brown.png');
+padding-right: 0.35em;
+}
