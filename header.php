@@ -77,24 +77,23 @@
                <!-- MENU LINKS -->
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="nav navbar-nav navbar-nav-first">
-                         <li><a href="index.php" style="font-size:22px;">Home</a></li>
+                         <li><a href="index.html" style="font-size:22px;">Home</a></li>
                          <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" style="font-size:22px;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Olympiad
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a id="nav-head" style="font-size:15px;" class="list-group-item" href="Siso.php">SISO</a>
-          <a id="nav-head" style="font-size:15px;"  class="list-group-item" href="Simo.php">SIMO</a>
-          <a id="nav-head" style="font-size:15px;"  class="list-group-item" href="Sieo.php">SIEO</a>
+          <a id="nav-head" style="font-size:15px;" class="list-group-item" href="siso.html">SISO</a>
+          <a id="nav-head" style="font-size:15px;"  class="list-group-item" href="simo.html">SIMO</a>
+          <a id="nav-head" style="font-size:15px;"  class="list-group-item" href="sieo.html">SIEO</a>
           <a class="list-group-item" style="font-size:15px;" href="grads.php">Grads Olympiad</a>
           <a class="list-group-item" style="font-size:15px;" href="finance.html">Finance Olympiad</a>
         </div>
       </li>
-                         <li><a href="aboutus.php" style="font-size:22px;">About us</a></li>
-                         <li><a href="faq.php" style="font-size:22px;">FAQs</a></li>
+                         <li><a href="aboutus.html" style="font-size:22px;">About us</a></li>
+                         <li><a href="FAQ.html" style="font-size:22px;">FAQs</a></li>
                          <li><a href="reviews.php" style="font-size:22px;">Reviews</a></li>
-                         <li><a href="contact.php" style="font-size:22px;">  Contact Us</a></li>
-                         
+                         <li><a href="contact.php" style="font-size:22px;">  Contact Us</a></li>      
                     </ul>
                </div>
 
