@@ -69,7 +69,7 @@
                       <span class="icon icon-bar"></span>
                       <span class="icon icon-bar"></span>
                  </button>
-                 <a href="index.php" class="navbar-brand" ><span>S</span>pring<span>f</span>ield<span></span> <span>Oly</span>mpiads </a>
+                 <a href="/index.html" class="navbar-brand" ><span>S</span>pring<span>f</span>ield<span></span> <span>Oly</span>mpiads </a>
                  <img title="SpringField" class="img-fluid zoom" alt="Springfield olympiads logo" src="images/logo_Web.svg">
 
                </div>
