@@ -52,7 +52,7 @@
                                  <p><i class="fas fa-envelope" style="font-size: 22px; margin-top: 3px;"></i><a href="mailto:hr@sfoly.com?subject=I have a query">hr@sfoly.com</a></p>
                                  <p><i class="fas fa-briefcase" style="font-size: 22px; margin-top: 3px;"></i><a href="careers.php">Careers</a></p>
                            </address>
-				 <a id="feback" style="margin-bottom: 29px;" href="feedback.php">Leave a Feedback</a>
+				 <a href="/exam-schedule.html" id="feback" style="margin-bottom: 29px;" href="feedback.php">Schedule for 2020</a>
 
                       </div>
                  </div>
