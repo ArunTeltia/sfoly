@@ -116,7 +116,7 @@ $("#footer1").load("footer.php");
                                         Rank 1</strong></p>
                             </td>
                             <td nowrap="nowrap" style="width:132px;height:20px;">
-                                <p>Rs. 10000/- Each + Gold Medal+ Certificate of Excellence</p>
+                                <p>Rs. 30000/- Each + Gold Medal+ Certificate of Excellence</p>
                             </td>
                         </tr>
                         <tr>
@@ -124,7 +124,7 @@ $("#footer1").load("footer.php");
                                 <p><strong>Rank 2</strong></p>
                             </td>
                             <td nowrap="nowrap" style="width:132px;height:20px;">
-                                <p>Rs. 7500/- Each + Silver Medal*+ Certificate of Excellence</p>
+                                <p>Rs. 20000/- Each + Silver Medal*+ Certificate of Excellence</p>
                             </td>
                         </tr>
                         <tr>
@@ -132,7 +132,7 @@ $("#footer1").load("footer.php");
                                 <p><strong>Rank 3</strong></p>
                             </td>
                             <td nowrap="nowrap" style="width:132px;height:20px;">
-                                <p>Rs. 5000/- Each + Bronze Medal*+ Certificate of Excellence</p>
+                                <p>Rs. 10000/- Each + Bronze Medal*+ Certificate of Excellence</p>
                             </td>
                         </tr>
                     </tbody>
