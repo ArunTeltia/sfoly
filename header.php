@@ -49,6 +49,17 @@
           letter-spacing: 1px;
           font-family: 'Josefin Sans';
      }
+     @media(max-width: 900px) {
+            .navbar-brand {
+                width: 200px;
+            }
+        }
+     @media only screen and (max-width: 460px) {
+            .custom-navbar .navbar-brand {
+                font-size: 14px;
+                margin-left: -20px;
+            }
+        }
     </style>
 
      
