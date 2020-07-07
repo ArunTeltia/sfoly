@@ -97,13 +97,13 @@
           <a id="nav-head" style="font-size:15px;" class="list-group-item" href="siso.html">SISO</a>
           <a id="nav-head" style="font-size:15px;"  class="list-group-item" href="simo.html">SIMO</a>
           <a id="nav-head" style="font-size:15px;"  class="list-group-item" href="sieo.html">SIEO</a>
-          <a class="list-group-item" style="font-size:15px;" href="grads.php">Grads Olympiad</a>
+          <a class="list-group-item" style="font-size:15px;" href="grads.html">Grads Olympiad</a>
           <a class="list-group-item" style="font-size:15px;" href="finance.html">Finance Olympiad</a>
         </div>
       </li>
                          <li><a href="aboutus.html" style="font-size:22px;">About us</a></li>
                          <li><a href="FAQ.html" style="font-size:22px;">FAQs</a></li>
-                         <li><a href="reviews.php" style="font-size:22px;">Reviews</a></li>
+                         <li><a href="reviews.html" style="font-size:22px;">Reviews</a></li>
                          <li><a href="contact.php" style="font-size:22px;">  Contact Us</a></li>      
                     </ul>
                </div>
