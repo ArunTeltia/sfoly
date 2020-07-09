@@ -66,7 +66,7 @@ app.post('/sendmessage', [
         // setup email data with unicode symbols
         let mailOptions = {
             from: "sfoly@outlook.com", // sender address
-            to: 'teltia.arun18@gmail.com', // list of receivers
+            to: 'sfoly.com@gmail.com', // list of receivers
             subject: 'Node Contact Request', // Subject line
             text: 'Hello world?', // plain text body
             html: output // html body
