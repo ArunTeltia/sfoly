@@ -530,12 +530,12 @@
             <div class="row">
 
                 <div class="col-md-6 col-sm-12">
-                    <form id="contact-form" action="mailto:sfoly.com@gmail.com" method="post">
+                    <form id="contact-form" action="" method="post">
                         <div class="section-title">
                             <h2>Contact us <small>We always love hearing from you!</small></h2>
                         </div>
                         <h5 class="result" style="color:white;">Thanks For Contacting Us, we'll be in touch.</h5>
-                        <!-- <h5 class="Error" style="color:red;">Something Happened! Try Again!</h5> -->
+                        <h5 class="Error" style="color:red;">Something Happened! Try Again!</h5>
                         <h4 class="InvalidEmail" style="color:white;">Enter Valid Email Address</h4>
                         <div class="col-md-12 col-sm-12">
                             <input id="name" type="text" class="form-control" placeholder="Enter full name" name="name"
@@ -556,7 +556,7 @@
 
                     </form>
                 </div>
-                <!-- <script>
+                <script>
                     $('.result').hide();
                     $('.Error').hide();
                     $('.InvalidEmail').hide();
@@ -590,14 +590,12 @@
                         $('#button1').click(function (e) {
                             e.preventDefault();
                             var name = $('#name').val();
-
                             var email = $('#email').val();
-
                             var message = $('#message').val();
                             $.ajax
                                 ({
                                     type: "POST",
-                                    url: "sendmail.php",
+                                    url: "sfoly.com@gmail.com",
                                     data: "name=" + name + "&email=" + email + "&message=" + message,
                                     beforeSend: function () {
                                         console.log("Sending");
@@ -616,7 +614,7 @@
                     });
 
 
-                </script> -->
+                </script>
 
                 <div class="col-md-6 col-sm-12">
                     <div class="contact-image">

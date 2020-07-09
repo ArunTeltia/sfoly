@@ -145,12 +145,17 @@
             <div class="row">
 
                 <div class="col-md-6 col-sm-12">
-                    <form id="contact-form" action="mailto:sfoly.com@gmail.com" method="post">
+                    <form id="contact-form" action="/sendmessage" method="post">
                         <div class="section-title">
                             <h2>Contact us <small>We always love hearing from you!</small></h2>
                         </div>
                         <h5 class="result" style="color:white;">Thanks For Contacting Us, we'll be in touch.</h5>
-                        <!-- <h5 class="Error" style="color:red;">Something Happened! Try Again!</h5> -->
+                        <%if(message=="Fill"){ %>
+                            <h5 class="Error" style="color:red;">Fill all the information</h5>
+                        <%}else if(message=="Message"){%>
+                            <h5 class="Error" style="color:green;">Message Sent We will contact you soon</h5>
+                        <%}%>
+                        
                         <h4 class="InvalidEmail" style="color:white;">Enter Valid Email Address</h4>
                         <div class="col-md-12 col-sm-12">
                             <input id="name" type="text" class="form-control" placeholder="Enter full name" name="name"
@@ -209,23 +214,8 @@
                             var email = $('#email').val();
 
                             var message = $('#message').val();
-                            $.ajax
-                                ({
-                                    type: "POST",
-                                    url: "sendmail.php",
-                                    data: "name=" + name + "&email=" + email + "&message=" + message,
-                                    beforeSend: function () {
-                                        console.log("Sending");
-                                    },
-                                    success: function (data) {
-                                        console.log("Done!");
-                                        $('.result').show();
-
-                                    },
-                                    error: function () {
-                                        $('.Error').show();
-                                    }
-                                });
+                            
+                            
                         });
 
                     });
