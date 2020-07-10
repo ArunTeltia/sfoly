@@ -16,6 +16,11 @@ app.use(
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.json());
+app.get('/', (req, res) => {
+    res.render("index", {
+        message: ""
+    })
+});
 
 app.get('/contact', (req, res) => {
     res.render("contact", {
