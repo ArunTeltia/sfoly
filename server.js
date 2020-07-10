@@ -16,7 +16,7 @@ app.use(
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.json());
-app.get('/', (req, res) => {
+app.get('/index', (req, res) => {
     res.render("index", {
         message: ""
     })
@@ -91,13 +91,9 @@ app.post('/sendmessage', [
             });
         });
     });
-app.get('/index', (req, res) => {
-    res.render("index", {
-        message: ""
-    })
-});
 
-app.post('/sendmessages', [
+
+app.post('/index', [
     check("name", "Name is required").not().isEmpty(),
     check("email", "Please include a valid email").isEmail(),
     check("message", "Message is required").not().isEmpty(),
