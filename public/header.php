@@ -88,7 +88,7 @@
                <!-- MENU LINKS -->
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="nav navbar-nav navbar-nav-first">
-                         <li><a href="index.html" style="font-size:22px;">Home</a></li>
+                         <li><a href="/index" style="font-size:22px;">Home</a></li>
                          <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" style="font-size:22px;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Olympiad

@@ -101,6 +101,7 @@ app.post('/index', [
 ],
 
     (req, res) => {
+        console.log(req.body)
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
             console.log(errors);
@@ -157,6 +158,12 @@ app.post('/index', [
         });
     });
 
+
+app.get('/', (req, res) => {
+    res.render('index', {
+        message: "",
+    })
+})
 
 app.listen(3000, () => {
     console.log('server is running');
