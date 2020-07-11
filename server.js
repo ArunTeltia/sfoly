@@ -37,7 +37,12 @@ app.post('/sendmessage', [
 
     (req, res) => {
         console.log(req.body);
-        
+        // console.log(req.body['g-recaptcha-response']);
+        if (req.body['g-recaptcha-response'] === "") {
+            res.render("contact", {
+                message: "Fill"
+            });
+        }
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
             console.log(errors);
@@ -81,12 +86,12 @@ app.post('/sendmessage', [
 
         // send mail with defined transport object
         transporter.sendMail(mailOptions, (error, info) => {
-            console.log(info);
+            // console.log(info);
             if (error) {
                 return console.log(error);
             }
-            console.log('Message sent: %s', info.messageId);
-            console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
+            // console.log('Message sent: %s', info.messageId);
+            // console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
 
             res.render('contact', {
                 message: "Message"
@@ -104,6 +109,11 @@ app.post('/index', [
 
     (req, res) => {
         console.log(req.body)
+        if (req.body['g-recaptcha-response'] === "") {
+            res.render("contact", {
+                message: "Fill"
+            });
+        }
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
             console.log(errors);
