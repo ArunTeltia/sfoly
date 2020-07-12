@@ -164,12 +164,17 @@
                             <textarea id="message" class="form-control" rows="6"
                                 placeholder="Tell us about your message" name="message" required=""></textarea>
 
-                            <div class="g-recaptcha" data-sitekey="6LcKu_IUAAAAAOlKaWMjmCxWRSCz_UAbGlxC6G8r"></div>
+                            <div class="g-recaptcha" data-sitekey="6LcKu_IUAAAAAOlKaWMjmCxWRSCz_UAbGlxC6G8r" data-callback="enableBtn"></div>
                         </div>
-
+                        
                         <div class="col-md-4 col-sm-12">
-                            <input id="button1" type="submit" class="form-control" name="contact" value="contact">
+                            <input id="button1" type="submit" class="form-control" name="contact" value="contact" disabled="disabled">
                         </div>
+                        <script>
+                            function enableBtn() {
+                                document.getElementById("button1").disabled = false;
+                            }
+                        </script>
 
                     </form>
                 </div>
