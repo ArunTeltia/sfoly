@@ -38,11 +38,6 @@ app.post('/sendmessage', [
     (req, res) => {
         console.log(req.body);
         // console.log(req.body['g-recaptcha-response']);
-        if (req.body['g-recaptcha-response'] === "") {
-            res.render("contact", {
-                message: "Fill"
-            });
-        }
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
             console.log(errors);
@@ -108,12 +103,7 @@ app.post('/index', [
 ],
 
     (req, res) => {
-        console.log(req.body)
-        if (req.body['g-recaptcha-response'] === "") {
-            res.render("contact", {
-                message: "Fill"
-            });
-        }
+        
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
             console.log(errors);
@@ -121,6 +111,7 @@ app.post('/index', [
                 message: "Fill"
             });
         }
+        
         const output = `
         <p>You have a new contact request</p>
         <h3>Contact Details</h3>
