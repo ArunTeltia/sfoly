@@ -33,9 +33,9 @@
                                 <h2>follow us on</h2>
                            </div>
                               <ul class="social-icon">
-                                   <li><a href="https://www.facebook.com/sfoly/"  attr="facebook icon"><i class="fab fa-facebook-square"></i></a></li>
-                                   <li><a href="https://www.linkedin.com/company/solympiads/"><i class="fab fa-linkedin"></i> </a></li>
-                                   <li><a href="https://www.instagram.com/sfolym/" ><i class="fab fa-instagram"></i></a></li>
+                                   <li><a target="_blank" href="https://www.facebook.com/sfoly/"  attr="facebook icon"><i class="fab fa-facebook-square"></i></a></li>
+                                   <li><a target="_blank" href="https://www.linkedin.com/company/solympiads/"><i class="fab fa-linkedin"></i> </a></li>
+                                   <li><a target="_blank" href="https://www.instagram.com/sfolym/" ><i class="fab fa-instagram"></i></a></li>
                               </ul>
                               <br/>
                                <a id="Register" href="register.html" >Register</a>

@@ -33,9 +33,9 @@
                                 <h2>follow us on</h2>
                            </div>
                               <ul class="social-icon">
-                                   <li><a href="https://www.facebook.com/sfoly/"  attr="facebook icon"><i class="fa fa-facebook-square"></i></a></li>
-                                   <li><a href="https://www.linkedin.com/company/solympiads/"><i class="fa fa-linkedin"></i> </a></li>
-                                   <li><a href="https://www.instagram.com/sfolym/" ><i class="fa fa-instagram"></i></a></li>
+                                   <li><a target="_blank" href="https://www.facebook.com/sfoly/"  attr="facebook icon"><i class="fa fa-facebook-square"></i></a></li>
+                                   <li><a target="_blank" href="https://www.linkedin.com/company/solympiads/"><i class="fa fa-linkedin"></i> </a></li>
+                                   <li><a target="_blank" href="https://www.instagram.com/sfolym/" ><i class="fa fa-instagram"></i></a></li>
                               </ul>
                               <br/><br/>
                                <a  id="Register" href="regurschool.php" >Register</a>
@@ -48,9 +48,9 @@
                                 <h2>Contact Info</h2>
                            </div>
                            <address>
-                               <p> <i class="fa fa-whatsapp" style="font-size: 22px; margin-top: 3px;"></i><a href="https://api.whatsapp.com/send?phone=+916230345161&text=Hi!">+91-6230345161</a></p>
-                                 <p><i class="fa fa-envelope" style="font-size: 22px; margin-top: 3px;"></i><a href="mailto:hr@sfoly.com?subject=I have a query">hr@sfoly.com</a></p>
-                                 <p><i class="fa fa-briefcase" style="font-size: 22px; margin-top: 3px;"></i><a href="careers.php">Careers</a></p>
+                               <p> <i class="fa fa-whatsapp" style="font-size: 22px; margin-top: 3px;"></i><a target="_blank" href="https://api.whatsapp.com/send?phone=+916230345161&text=Hi!">+91-6230345161</a></p>
+                                 <p><i class="fa fa-envelope" style="font-size: 22px; margin-top: 3px;"></i><a target="_blank" href="mailto:hr@sfoly.com?subject=I have a query">hr@sfoly.com</a></p>
+                                 <p><i class="fa fa-briefcase" style="font-size: 22px; margin-top: 3px;"></i><a target="_blank" href="careers.php">Careers</a></p>
                            </address>
 				 <a id="feback" href="feedback.php">Schedule for 2020</a>
 

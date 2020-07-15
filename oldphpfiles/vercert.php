@@ -136,7 +136,6 @@ $("#footer1").load("footer.php");
 				$('form .alert').remove();
 		}).prop('checked',false);
 
-	</script>
   <div id="footer1"></div>
 
 	 <script src="js/jquery.js"></script>
