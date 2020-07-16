@@ -103,7 +103,7 @@
       </li>
                          <li><a href="aboutus.html" style="font-size:22px;">About us</a></li>
                          <li><a href="FAQ.html" style="font-size:22px;">FAQs</a></li>
-                         <li><a href="reviews.html" style="font-size:22px;">Reviews</a></li>
+                         <li><a href="register.html" style="font-size:22px;">Register</a></li>
                          <li><a href="contact" style="font-size:22px;">  Contact Us</a></li>      
                     </ul>
                </div>

@@ -38,7 +38,7 @@
                                    <li><a target="_blank" href="https://www.instagram.com/sfolym/" ><i class="fab fa-instagram"></i></a></li>
                               </ul>
                               <br/>
-                               <a id="Register" href="register.html" >Register</a>
+                               <a id="Register" href="reviews.html" >Reviews</a>
                          </div>
                     </div>
 
