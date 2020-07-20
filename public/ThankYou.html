@@ -108,8 +108,8 @@
     <div style="margin-top: 110px; width:100%" id="wrapper" class="animated zoomIn">
         <!-- We make a wrap around all of the content so that we can simply animate all of the content at the same time. I wanted a zoomIn effect and instead of placing the same class on all tags, I wrapped them into one div! -->
         <center>
-        <img class="image_thank_you" src="./thank-you (1).svg">
-    </center>
+            <img class="image_thank_you" src="./thank-you (1).svg">
+        </center>
         <h1>
             <!-- The <h1> tag is the reason why the text is big! -->
             <underline>Thank you!</underline>
@@ -139,6 +139,15 @@
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
     <script src="backtotop.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172957854-1">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-172957854-1');
+    </script>
 </body>
 
 </html>
