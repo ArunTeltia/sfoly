@@ -91,6 +91,12 @@
         h1:not(:hover) {
             transition: font-size 0.7s ease-out;
         }
+
+        @media(max-width: 900px) {
+            .image_thank_you {
+                width: 80%
+            }
+        }
     </style>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -99,9 +105,11 @@
 <body>
 
     <div id="header1"></div>
-    <div style="margin-top: 110px;" id="wrapper" class="animated zoomIn">
+    <div style="margin-top: 110px; width:100%" id="wrapper" class="animated zoomIn">
         <!-- We make a wrap around all of the content so that we can simply animate all of the content at the same time. I wanted a zoomIn effect and instead of placing the same class on all tags, I wrapped them into one div! -->
-        <img src="./thank-you (1).svg">
+        <center>
+        <img class="image_thank_you" src="./thank-you (1).svg">
+    </center>
         <h1>
             <!-- The <h1> tag is the reason why the text is big! -->
             <underline>Thank you!</underline>
@@ -116,7 +124,7 @@
                 Olympiads one week prior to the date of Olympiad</h4>
 
             <h4>Also, please follow us on <a target="_blank" href="https://www.facebook.com/sfoly">Facebook</a> and <a
-                target="_blank" href="https://www.instagram.com/sfolym/">Instagram</a> to keep yourself updated.
+                    target="_blank" href="https://www.instagram.com/sfolym/">Instagram</a> to keep yourself updated.
             </h4>
 
             <h4>If you have any questions, you can reach us at <a href="/contact">Contact Us</a> page.</h4>
