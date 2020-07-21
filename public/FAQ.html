@@ -103,7 +103,16 @@
             box-shadow: 1px 1px 1px 1px #888888;
             color: orange;
             border-radius: 30px;
+
+
         }
+
+        .hellooo {
+            font-size: 20px;
+            margin-top: 7%;
+            justify-content: center;
+        }
+
 
         .radio-button-1 h2 {
             color: orange;
@@ -142,6 +151,16 @@
         .fas {
             margin-right: 25px;
         }
+
+        @media (max-width: 600px) {
+            .hellooo {
+                font-size: 15px;
+            }
+
+            .helloee {
+                margin-top: 15%;
+            }
+        }
     </style>
 </head>
 
@@ -165,7 +184,7 @@
         <center>
             <div class="radio-series">
                 <div class="radio-button-1" onClick="myFunc1()" style="width:360px; height:70px; ">
-                    <h3>School Olympiads</h3>
+                    <div class="hellooo helloee">School Olympiads</div>
                 </div>
                 <!-- <div class="radio-button">
                     <div class="radio-button-1" onClick="myFunc2()" style="width:90px; height:70px;">
@@ -178,7 +197,7 @@
                 </div> -->
                 <div class="radio-button-1" id="" onClick="myFunc5()"
                     style="width:360px; height:70px; align-items:center;">
-                    <h3>Finance and Grads Olympiad</h3>
+                    <div class="hellooo"> Finance and Grads Olympiad</div>
                 </div>
             </div>
         </center>
